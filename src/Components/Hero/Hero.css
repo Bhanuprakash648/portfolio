@@ -5,8 +5,7 @@
     gap:35px;
 }
 .hero img{
-    margin-top:100px;
-
+    margin-top:15px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -14,7 +13,7 @@
 .hero h1{
     text-align:center;
     width:70%;
-    font-size:90px;
+    font-size:70px;
     font-width: 600;
 }
 
@@ -28,12 +27,28 @@
 .hero-action{
     display:flex;
     align-items:center;
-    gap: 2;
+    gap: 10px;
     font-size: 24px;
     font-width: 500;
     margin-bottom: 50px;
 }
 
+.hero-social-media{
+    display:flex;
+    gap: 5px;
+    font-size: 40px;
+}
+
+.account a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.account:hover{
+    transform: scale(1.10);
+
+}
 .hero-connect{
     padding: 25px 45px;
     border-radius: 50px;
@@ -52,8 +67,8 @@
 }
 .hero-connect:hover{
     border: 2px solid white;
-
 }
+
 .hero h1 span{
     background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
     background-clip: text;

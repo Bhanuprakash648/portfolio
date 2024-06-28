@@ -3,6 +3,7 @@ import './Projects.css'
 import projects_data from '../../assets/projects_data';
 import theme_pattern from '../../assets/theme_pattern.svg'
 const Projects = () => {
+  console.log(projects_data)
   return (
     <div id="projects" className='projects'>
       <div className="projects-title">
@@ -11,8 +12,7 @@ const Projects = () => {
       </div>
       <div className="projects-container">
          {projects_data.map((project,index)=>{
-          return <img key= {index} src={project.w_img} alt="" />
-
+          return <a href={project.link} target="blank"><img key= {index} src={project.w_img} alt="" /></a>
          })} 
       </div>
       <div className='projects-showmore'>
