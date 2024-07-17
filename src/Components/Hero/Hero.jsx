@@ -1,9 +1,8 @@
 import React from 'react'
 import './Hero.css';
-import pic from '../../assets/yamu.jpg';
+import pic from '../../assets/Bhanu.jpg';
 import { VscGithub } from "react-icons/vsc";
 import { BiLogoLinkedin } from "react-icons/bi";
-import { FaSquareInstagram } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 

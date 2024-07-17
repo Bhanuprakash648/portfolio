@@ -11,8 +11,7 @@ const About = () => {
       <div className="about-sections">
         <div className="about-right">
             <div className="about-para">
-                <p>I am an experienced Frontend Developer with over a decade of professional expression. </p>
-                <p>My passion for frontend development is not only reflected in my experience. </p>
+                <p>Hi! I am Bhanu Prakash, a BTech computer science student at SRM University with a strong interest in technology. Skilled in the MERN stack, I focus on creating dynamic web applications and practical experience in AWS. I am dedicated to ongoing learning and innovation in my field. I enjoy tackling challenges that push my limits and am excited about exploring new opportunities to make significant contributions to the tech industry.</p>
             </div>
             <div className="about-skills">
                 <h1> skills</h1>
