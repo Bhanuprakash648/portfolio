@@ -12,6 +12,8 @@ const App = () => {
       <About />
       <Projects />
       <Contact />
+
+      
     </div>
   )
 }
