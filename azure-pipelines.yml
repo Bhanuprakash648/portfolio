@@ -2,15 +2,15 @@ trigger:
 - main
 
 pool:
-  name: Default
+  name: Default   # self-hosted agent
 
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '20.x'
-  displayName: 'Install Node.js'
+- script: docker --version
+  displayName: 'Check Docker'
 
 - script: |
-    npm install
-    npm run build
-  displayName: 'npm install and build'
+    docker build -t portfolio-app:ci .
+  displayName: 'Build Docker image'
+
+- script: docker images
+  displayName: 'List Docker images'
